@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/imagehover.css-master/css/imagehover.css">
+    <style>
+    .Home-Page{
+    background-image: url("Img/trai_nghiem_leo_nui_o_myanmar_3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    height:100vh;
+    }
+    html{
+        height: 500vh;
+        background-color: yellow;
+    }
+ 
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.content{
+    position: absolute;
+    font-size: 46px;
+    top: 241px;
+    left: 246px;
+    color: white;
+    
+}
+.btn-content{
+    position: absolute;
+    /* font-size: 46px; */
+    top: 340px;
+    left: 614px;
+  
+}
+.header{
+    position: absolute;
+    
+}
+    
+
+.site-nav-scroll{
+    position:fixed;
+    background-color: #ffffff;
+    box-shadow:0 0 5px #00000020;
+    
+    height: 90px;
+    
+    backdrop-filter: blur(60px);  
+}
+   
+    </style>
+    </head>
+    <body>
+        <div class="Home-Page">
+            <header class="container-fluid">
+                <div class="row align-items-center h-100">
+                    <div class="container px-0">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light mt-1">
+                                <a class="navbar-brand" href="#" style="font-size:30px;font-family:'Lato', sans-serif;">
+                                  <img src="Img/126314076_688448888728006_7815604592444293265_n.png" class="logo">
+                                  Travel</a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                  
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                      <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                          <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="about.html">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="journey.html">journey</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="blog.html">Blog</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html">Contact</a>
+                                          </li>
+                                      
+                                    
+                                      </ul>
+                                   
+                                    </div>
+                                </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="content text-center">
+                Cheap, fast, adequate insurance coverage!
+              </div>
+              <div class="btn-content">
+                <a class="btn btn-outline-warning text-uppercase">Get in touch</a>
+              </div>
+        </div>
+       
+    
+     
+        
+        
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <script>
+     let screenheight=$(window).height();
+console.log(screenheight);
+
+$(document).ready(function(){
+$(window).scroll(function(){
+let currentPosition = $(this).scrollTop();
+console.log(currentPosition);
+if(currentPosition > screenheight-100){
+    $("header").addClass("site-nav-scroll")
+}else{
+    $("header").removeClass("site-nav-scroll")
+}
+})
+});
+    </script>
+  
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+   <!-- <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h4 class="aa font-weight-bolder">1253</h4>
+                                <p>HAPPY Tourists</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h4 class="aa font-weight-bolder">654</h4>
+                                <p>Verified hotels</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h4 class="aa font-weight-bolder">958</h4>
+                                <p>Tourist Program</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h4 class="aa font-weight-bolder">3569</h4>
+                                <p>Tickets sold</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div> -->
+      
+        <!-- <figure class="imghvr-slide-up Bagan-Img">
+            <img src="Img/bagan1.jpg" class="Img-Bagan">
+            <figcaption>
+                <h5 class="text-dark fa-3x">Bagan</h5>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </figcaption>
+        </figure> -->
+        <!-- <div class="container-fluid Home-Page">
+            <div class="row">
+                <div class="container home-content site-nav">
+                    <nav class="navbar navbar-expand-lg navbar-light mt-4">
+                    <a class="navbar-brand" href="#" style="font-size:30px;font-family:'Lato', sans-serif;">
+                      <img src="Img/126314076_688448888728006_7815604592444293265_n.png" class="logo">
+                      Travel</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="journey.html">journey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                              </li>
+                          
+                        
+                          </ul>
+                       
+                        </div>
+                    </nav>
+                    <div class="content text-center">
+                      Cheap, fast, adequate insurance coverage!
+                    </div>
+                    <div class="btn-content">
+                      <a class="btn btn-warning text-uppercase">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Home-Page{
+    background-image: url("../Img/trai_nghiem_leo_nui_o_myanmar_3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    width: 100%;
+    height:100vh;
+}
+ 
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.content{
+    position: absolute;
+    font-size: 46px;
+    top: 241px;
+    left: 246px;
+    color: white;
+    
+}
+.btn-content{
+    position: absolute;
+    /* font-size: 46px; */
+    top: 340px;
+    left: 614px;
+  
+}
+header{
+    position: absolute;
+    
+}
+    
+
+.site-nav-scroll{
+    position:fixed;
+    background-color: #ffffff;
+    box-shadow:0 0 5px #00000020;
+    
+    height: 90px;
+    
+    backdrop-filter: blur(60px);  
+    z-index: 50000;
+}
+   
+
+
+
+
+
+.nav-link{
+    font-family:'Lato', sans-serif;
+    font-size:20px;
+
+}
+
+
+
+.intro-1{
+    height:350px;
+}
+.metro{
+    height: 250px;
+}
+.pone{
+    height: 400px;
+}
+.transporation{
+    background-image:url("../Img/bg-3.svg");
+    
+}
+.tar{
+    height:80vh;
+}
+.choose{
+    height:80vh;
+}
+.counter-part{
+        background-image: url("../Img/taung-wine-pagoda-41.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+        margin-top: 80px;
+}
+.counter-gp{
+    height: 80vh;
+}
+.footer-first{
+    height: 50vh;
+}
+.test-1{
+    width: 70px;
+    height: 70px;
+    border-radius:100%;
+    margin-top:-35px;
+}
+.testimomials-page{
+   
+    height: 80vh;
+}
+.TestKN{
+    background-image: url("../Img/bg-3.svg");
+    height: 100vh;
+
+}
+
+.disount-festival{
+    /* margin-top: 100px; */
+    height: 80vh;
+}
+.contact{
+    margin-top: 100px;
+}
+
+.Img-Bagan{
+    width:350px;
+    height:300px;
+    background-color: white;
+}
+.Bagan-Img{
+    background-color: white;
+}
+.Bagan-Img figcaption{
+    background-color: white;
+}
+.Img-Bagan-One{
+    width:350px;
+    height:300px;
+    background-color: white;
+}
+.Bagan-Img-One{
+    background-color: white;
+}
+.Bagan-Img-One figcaption{
+    background-color: white;
+}
+.About-Page{
+    height:10vh;
+}
+.Journey-Page{
+    height:10vh;
+}
+.Blog-Page{
+    height:10vh;
+}
+.Contact-Page{
+    height: 10vh;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+}
+
+@media screen and (max-width:576px){
+    .header{
+    box-shadow:0 0 5px #00000020;
+    background-color: #ffffffee;
+    backdrop-filter: blur(5px); 
+ 
+    }
+    .mobile-nav-1{
+        background-color: white;
+        z-index: 50000000;
+    }
+    .btn-content{
+    position:absolute;
+     
+    top:580px;
+    left:120px;
+}
+    .content{
+    position: absolute;
+    font-size: 46px;
+    top:300px;
+    left:17px;
+    color: white;
+    
+}
+    .Tusted_img{
+    width:100% !important;
+    height:300px !important;
+    }
+    .OFFER_IMG-1{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .OFFER_IMG-2{
+        margin-bottom: 45px;
+    }
+    .Travel-IMG-1{
+        margin-bottom:-60px;
+    }
+    .Travel-IMG_2{
+        margin-bottom:30px;
+    }
+    .Transporations{
+        height: 250vh;
+    }
+    .RAIL_BOOKING_1{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .RAIL_BOOKING_2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .counter-text{
+        color: white;
+    }
+    .WHY_CHOOSE_US{
+    height: 164vh;
+    }
+    .choose_part_1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .get_in_touch{
+        margin-bottom: 30px;
+    }
+    .address-card{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-part-1{
+        height:75vh;
+    }
+    .follow-text{
+        margin-top:40px;
+    }
+    .about-img-1{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    }
+    .professional-text{
+        font-size: 2rem !important;
+    }
+    .professional-part-1{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .TestKN{
+        height:190vh;
+    }
+    .TESTIMONIALS-part-1{
+        margin-top: 45px;
+    }
+    .TESTIMONIALS-part-2{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .disount-festival{
+        height: 93vh;
+    }
+    .disount-festival-part1{
+     width: 100%;
+     height: 100%;
+     margin-top: 20px;
+    }
+    .Festivals-Vacation-text{
+        font-size: 2rem !important;
+    }
+    .Festivals-Vacation-btn{
+        margin-bottom: 40px;
+    }
+    .TESTIMONIALS-text{
+        margin-top: 20px;
+        font-size: 2rem !important;
+    }
+    .PROFESSIONALS-Height{
+        height: 268vh;
+    }
+    .Img-Bagan{
+        width: 100%;
+
+    }
+    .Bagan-mobile-Img{
+        
+    margin-top: 45px !important;
+
+    }
+    .Bagan-Hotels{
+     
+        padding-right:40px !important;
+        
+    }
+    .Hotels-text{
+        font-size: 2rem !important;
+    }
+    .Bagan-Visit{
+        margin-top:30px !important;
+        margin-bottom:30px !important;
+    }
+    .blog-mobile-1{
+    height: 177vh;
+    }
+    .blog-mobile-2{
+        height: 160vh;
+    }
+    .mobile-content-1{
+    margin-top: 70px;
+    }
+    .offer-text-1{
+        font-size: 2rem !important;
+    }
+    .offer-text-2{
+        font-size: 2rem !important;
+        margin-bottom: 40px !important;
+    }
+  
+    
+}
